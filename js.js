@@ -502,7 +502,7 @@ vertex3d.prototype = {
 	var textSet = [
 		{text:"HELLO", sphereRadius:140, sphereSpace:80, unitTime:100, time:1000},
 		{text:"THIS_IS", sphereRadius:120, sphereSpace:70, unitTime:120, time:4000},
-		{text:"NITIN_DAGAR", sphereRadius:120, sphereSpace:70, unitTime:120, time:2000},
+		{text:"NITIN_DAGAR", sphereRadius:120, sphereSpace:70, unitTime:120, time:4000},
 		{text:"@@@@@", sphereRadius:60 + Math.random()*60, sphereSpace:200, unitTime:100, time:8000}
 	];
 	
