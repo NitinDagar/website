@@ -1,0 +1,22 @@
+        * {
+            margin: 0;
+        }
+        
+        body {
+            background: #000000;
+        }
+        
+        .link {
+            position: relative;
+            text-align: right;
+            margin-top: 30px;
+        }
+        
+        .link a {
+            color: black;
+            margin-right: 7px;
+        }
+        
+        .link a:last-child {
+            margin-right: 50px;
+        }
