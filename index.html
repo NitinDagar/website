@@ -1,9 +1,10 @@
 <html>
 
 <head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <title>Nitin Dagar</title>
     <script>
-        if (window.location.protocol != "https:"){
+        if (window.location.protocol != "https:") {
             window.location.protocol = "https";
         }
     </script>
@@ -15,16 +16,40 @@
         body {
             background: #000000;
         }
+        
+        .link {
+            position: relative;
+            text-align: right;
+            margin-top: 30px;
+        }
+        
+        .link a {
+            color: black;
+            margin-right: 7px;
+        }
+        
+        .link a:last-child {
+            margin-right: 50px;
+        }
     </style>
 
 </head>
 
 <body>
-    <div>
+    <div class="container">
         <canvas id="canvas" style="position:absolute; top:0; left:0;"></canvas>
-        <div id="buffer" style="display:none;">
-        </div>
+        <div id="buffer" style="display:none;"></div>
+        <div id="img1" class="link fa-2x">
+            <a href="https://www.facebook.com/NitinDagarOfficial" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.linkedin.com/in/nitindagar/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/NitinDagar" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://plus.google.com/+nitindagar" target="_blank"><i class="fab fa-google-plus-g"></i></a>
+            <a href="https://www.instagram.com/nitindagar7/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/nitindagar7" target="_blank"><i class="fab fa-twitter"></i>
+		</div>
+
         <script src="js.js"></script>
+
 </body>
 
 </html>
