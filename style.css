@@ -20,3 +20,9 @@
         .link a:last-child {
             margin-right: 50px;
         }
+       .res{
+	    float: left;
+	    text-decoration: none;
+	    margin-left: 70px;
+	    font-family: fantasy;
+	 }
